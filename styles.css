@@ -1,0 +1,96 @@
+/* Layout */
+@media (max-width: 375px) {
+    /* Styles for mobile */
+  }
+  
+  @media (min-width: 376px) {
+    /* Styles for larger mobile screens */
+  }
+  
+  @media (min-width: 1440px) {
+    /* Styles for desktop */
+  }
+  
+  /* Colors */
+  :root {
+    --color-primary: hsl(75, 94%, 57%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey: hsl(0, 0%, 20%);
+    --color-dark-grey: hsl(0, 0%, 12%);
+    --color-off-black: hsl(0, 0%, 8%);
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-off-black);
+    color: var(--color-white);
+    padding: 1.8rem 3rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container{
+    background-color: var(--color-dark-grey);
+    padding: 1.5rem;
+    margin: auto;
+    width: 288px;
+    height: 432px;
+    border-radius: 0.5rem;
+  }
+  .image-para {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .image-para img {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+  }
+  .title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .location {
+    color: var(--color-primary);
+    font-size: 10px;
+    margin-bottom: 18px;
+    font-weight: bold;
+  }
+  
+  .job-title {
+    font-size: 12px;
+    margin-bottom: 14px;
+    letter-spacing: 1px;
+  }
+  
+  .button-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn {
+    background-color: var(--color-grey);
+    color: var(--color-white);
+    padding: 10px 14px;
+    border: none;
+    border-radius: 0.4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .btn:hover {
+    background-color: var(--color-primary);
+    color: var(--color-off-black);
+  }
+  
+  .attribution { font-size: 11px; text-align: center; margin-top: 80px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
